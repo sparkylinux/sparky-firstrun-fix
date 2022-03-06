@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# last update 2022/03/06 by pavroo
+
+sudo mv /etc/resolv.conf /etc/resolv.conf.old
+sudo systemctl restart NetworkManager
+sudo cat /etc/resolv.conf >> /var/log/sparky-firstrun-fix
+
+exit 0

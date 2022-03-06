@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sparky firstrun fix
+Comment=Fix resolv.conf
+Exec=/usr/bin/sparky-firstrun-fix
+Terminal=false
+Type=Application
+
